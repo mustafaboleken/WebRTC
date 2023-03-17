@@ -13,6 +13,6 @@ let package = Package(
         targets: [
             .binaryTarget(
                 name: "WebRTC",
-                path: "WebRTC.xcframework")
+                path: "https://github.com/stasel/WebRTC/releases/download/111.0.0/WebRTC-M111.xcframework.zip")
     ]
 )

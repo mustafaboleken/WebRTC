@@ -6,8 +6,11 @@ let package = Package(
     platforms: [.iOS(.v13)],
     products: [
         .library(
-            name: "iOSWebRTCSDK",
-	    targets: ["WebRTC", "WebRTCiOSSDK"])
+            name: "WebRTC",
+	    targets: ["WebRTC", "WebRTCiOSSDK"]),
+	 .library(
+            name: "WebRTCiOSSDK",
+	    targets: ["WebRTCiOSSDK"])
         ],
         dependencies: [ ],
         targets: [

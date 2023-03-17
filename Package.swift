@@ -9,7 +9,6 @@ let package = Package(
             name: "WebRTC",
 	    targets: ["WebRTC"]),
         ],
-        dependencies: [ ],
         targets: [
             .binaryTarget(
                 name: "WebRTC",

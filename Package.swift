@@ -13,6 +13,6 @@ let package = Package(
         targets: [
             .binaryTarget(
                 name: "WebRTC",
-                path: "WebRTC.xcframework"),
+                path: "WebRTC.xcframework")
     ]
 )

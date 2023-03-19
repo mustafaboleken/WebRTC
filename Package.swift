@@ -27,13 +27,6 @@ let package = Package(
         .binaryTarget(
             name: "WebRTCiOSSDK",
             path: "WebRTCiOSSDK.xcframework",
-            dependencies: [
-                    .package(
-                        name: "Starscream",
-                        url: "https://github.com/daltoniam/Starscream.git",
-                        .exact("4.0.4")
-                    ),
-                ]
         ),
     ]
 )

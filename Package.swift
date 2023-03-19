@@ -29,7 +29,7 @@ let package = Package(
             path: "WebRTCiOSSDK.xcframework",
             dependencies: [
                     "Starscream"
-                ]),
+                ]
         ),
     ]
 )

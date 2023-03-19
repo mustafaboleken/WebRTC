@@ -27,7 +27,9 @@ let package = Package(
         .binaryTarget(
             name: "WebRTCiOSSDK",
             path: "WebRTCiOSSDK.xcframework",
-            .product(name: "Starscream", package: "Starscream")
+            dependencies: [
+                    "Starscream"
+                ]),
         ),
     ]
 )

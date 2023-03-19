@@ -10,7 +10,7 @@ let package = Package(
             targets: ["WebRTC"]),
         .library(
             name: "WebRTCiOSSDK",
-            targets: ["WebRTCiOSSDK"]),
+            targets: ["Wrapper"]),
     ],
     dependencies: [
         .package(

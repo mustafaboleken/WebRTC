@@ -8,12 +8,19 @@ let package = Package(
         .library(
             name: "WebRTC",
             targets: ["WebRTC"]),
+        .library(
+            name: "WebRTCiOSSDK",
+            targets: ["WebRTCiOSSDK"]),
     ],
     dependencies: [ ],
     targets: [
         .binaryTarget(
             name: "WebRTC",
             path: "WebRTC.xcframework"
+        ),
+        .binaryTarget(
+            name: "WebRTCiOSSDK",
+            path: "WebRTCiOSSDK.xcframework"
         ),
     ]
 )

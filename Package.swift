@@ -25,6 +25,7 @@ let package = Package(
             dependencies: [
                 "WebRTCiOSSDK", "Starscream"
             ],
+	    path: "Wrapper"
         ),
         .binaryTarget(
             name: "WebRTC",
